@@ -1,4 +1,4 @@
-const siswa = {
+const siswa1 = {
     nama: "Faril",
     kelas: "X.1 AB",
     umur: 15,
@@ -16,11 +16,12 @@ const siswa2 = {
     notelp: "081234567890"
 };
 
-const siswa = {
-    { nama: "Andi", kelas: "X.1 AB" },
-    { nama: "Eko", kelas: "X.1 AB" },
-    { nama: "Shoseilo", kelas: "X.1 AB" }
-};
+const siswa = [
+   { nama: "Andi",kelas: "X.1 AB", alamat: "Jl. Merdeka No. 10", notelp: "082220570412", umur: 15 },
+   { nama: "Fatan",kelas: "X.1 AB", alamat: "Jl. Gajah Mada No. 15", notelp: "081234567891", umur: 16 },
+   { nama: "Rizki",kelas: "X.1 AB", alamat: "Jl. Diponegoro No. 20", notelp: "081234567890", umur: 17 },
+   { nama: "Faril",kelas: "X.1 AB", alamat: "Jl. Merdeka No. 10", notelp: "082220570412", umur: 15 }
+];
 
-console.log(siswa.alamat.jalan);
-console.log(siswa2.notelp);
+console.log("Namanya", siswa[0].nama, "umurnya", siswa[0].umur);
+console.log("Namanya", siswa[1].nama, "umurnya", siswa[1].umur);
