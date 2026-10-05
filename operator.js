@@ -17,14 +17,12 @@ let umur = 15;
 let namadepan = "Faril";
 let namabelakang = "Maulana";
 
-let nilai = [75, 65, 80, 85, 90];
- hasil = nilai[0] + nilai[1] + nilai[2];
 
 
-
- let harga = [10000, 20000, 30000, 40000, 50000];
- let jumlah = [1, 2, 3, 4, 5];
- let total = 
-    harga [0] * jumlah[1];
-
-console.log("harganya " + harga[3] + " jumlahnya " + jumlah[2] + " dan totalnya " + total);
+let harga = [10000, 15000, 20000,];
+let jumlah = [2, 1, 3];
+let total =
+harga[0] * jumlah[0] *
+harga[1] * jumlah[1] *
+harga[2] * jumlah[2];
+console.log(total);
