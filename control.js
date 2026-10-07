@@ -11,11 +11,17 @@
 
 
 
-let menu = "telur asin";
-if (menu == "martabak") {
-    console.log(" makan ", menu);
-} else if (menu == "telur asin") {
-    console.log("cicip ", menu);
-} else {
-    console.log("gadoyann", menu);
-}
+//let menu = "telur asin";
+//if (menu == "martabak") {
+   // console.log(" makan ", menu);
+//} else if (menu == "telur asin") {
+    // console.log("cicip ", menu);
+//} else {
+    // console.log("gadoyann", menu);
+//}
+
+
+
+
+
+
