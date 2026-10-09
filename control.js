@@ -35,13 +35,15 @@
 
 
 
-let punyatiket = false;
-let punyaundangan = false;
+// let punyatiket = false;
+// let punyaundangan = false;
 
-if (punyatiket && punyaundangan) {
-    console.log("Tamu VIP");
-} else if (punyatiket || punyaundangan) 
-    console.log("Tamu biasa");
-  else {
-    console.log("Tidak boleh masuk");
-}
+// if (punyatiket && punyaundangan) {
+//     console.log("Tamu VIP");
+// } else if (punyatiket || punyaundangan) 
+//     console.log("Tamu biasa");
+//   else {
+//     console.log("Tidak boleh masuk");
+// }
+
+
