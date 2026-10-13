@@ -1,10 +1,11 @@
-console.log("Nama saya Andi");
-console.log("Nama saya Andi");
-console.log("Nama saya Andi");
-console.log("Nama saya Andi");
-console.log("Nama saya Andi");
+// console.log("Nama saya Andi");
+// console.log("Nama saya Andi");
+// console.log("Nama saya Andi");
+// console.log("Nama saya Andi");
+// console.log("Nama saya Andi");
 
 
-for (let i = 11; i <= 20; i += 2) {
-    console.log(i);
+for (let i = 0; i < 11; i++
+) {
+    console.log(" 1 x 1 " + i + " = " + (i * i ));
 }
