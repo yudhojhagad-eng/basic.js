@@ -12,8 +12,19 @@
 
 
 
-let total = 0;
-for (let i = 1; i <= 5; i++) {
-    total = total + i;
+// let total = 0;
+// for (let i = 10; i <= 20; i+= 2) {
+//     total = total + i;
 
-console.log(`i=${i} -> total -${total}`);}
+// console.log(`i=${i} -> total -${total}`);}
+// console.log(total);
+
+
+
+
+let nilai= ["Agus", "siti", "citra", "Miaw", "Aug", "Windah", "Bersaudara", "Paimin", "Pak Bowo", "Ganjar Pramono"];
+for (let i = 0; i < nama.length; i++) {
+    console.log(`${i} ${nama[i]}`);
+}
+
+
