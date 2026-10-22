@@ -28,13 +28,27 @@
 // }
 
 
-let nilai = [80, 65, 90, 55, 75];
-for (let i = 0; i < nilai.length; i++) {
-    if (nilai[i] >= 90) {
-        console.log("nilai nya " + nilai[i] + " - sangat bagus");
-    } else if (nilai[i] >= 80) {
-        console.log("nilai nya " + nilai[i] + " - bagus");
-    } else {
-        console.log("Nilai nya " + nilai[i] + " - cukup");
-    }
-}
+// let nama = ["Andi", "Budi", "Agus", "Miaw", "Aug"]
+// let nilai = [85, 60, 90, 72, 45];
+// for (let i = 0; i < nilai.length; i++) {
+//     if (nilai[i] >= 90) {
+//         console.log(nama[i] + " - Lulus");
+//     } else if (nilai[i] >= 76) {
+//         console.log(nama [i] + " - Tidak Lulus");
+//     } else {
+        
+//     }
+        
+// }
+
+
+
+let angka = [12, 7, 20, 15, 8, 3, 14, 9,];
+   for (let i = 0; i < angka.length; i++) 
+    if (angka[i] % 2 === 0 && angka[i] >= 10) {
+        console.log(`${angka[i]} - genap >= 10`);
+   } else if (angka[i] % 2 === 0 && angka[i] < 10) {
+        console.log(`${angka[i]} - genap < 10`);
+   } else {
+        console.log(`${angka[i]} - ganjil < 10`);
+   }
